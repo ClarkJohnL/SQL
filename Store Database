@@ -1,0 +1,14 @@
+--Create a store database
+
+--Store Items
+/**Store Items:
+Shoes (4), (50),
+Shirts (20), (25),
+Pants (30), ($44)
+**/
+
+create table items (id INTEGER PRIMARY KEY, item text, quantity integer, price integer);
+
+Insert into items values (1, "Shoes", 4, 50);
+Insert into items values (2, "Shirts", 20, 25);
+SELECT * FROM items;
